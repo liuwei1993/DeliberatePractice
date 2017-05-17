@@ -68,7 +68,8 @@ public class RotateString {
         reverseString(chars, 0, chars.length - 1);
 
         System.out.println(String.valueOf(chars));
-
+        //原理：将一个字符串分成X和Y两个部分，在每部分字符串上定义反转操作，
+        // 如X^T，即把X的所有字符反转（如，X="abc"，那么X^T="cba"），那么就得到下面的结论：(X^TY^T)^T=YX
     }
 
 }
