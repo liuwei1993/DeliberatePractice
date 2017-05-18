@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291b95a8-4303-496f-b1ea-3078b60b9b85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simon/string/contains/Contains.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simon/datastructure/list/LinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simon/datastructure/list/LinkedListTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/string/rotatestring/RotateString.java" afterPath="$PROJECT_DIR$/src/com/simon/string/rotatestring/RotateString.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,22 +17,30 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RotateString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/simon/string/rotatestring/RotateString.java">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/list/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="496">
+              <caret line="190" column="28" lean-forward="false" selection-start-line="190" selection-start-column="19" selection-end-line="190" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#8192#8193#0" expanded="true" />
+                <element signature="e#8246#8247#0" expanded="true" />
+                <element signature="e#8620#8621#0" expanded="true" />
+                <element signature="e#8658#8659#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Contains.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/simon/string/contains/Contains.java">
+      <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/list/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="50" column="28" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="296">
+              <caret line="192" column="51" lean-forward="false" selection-start-line="192" selection-start-column="51" selection-end-line="192" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,6 +53,13 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>toArray</find>
+      <find>removeAll</find>
+      <find>retainAll</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,14 +77,17 @@
         <option value="$PROJECT_DIR$/src/com/simon/string/rotatestring/Main.java" />
         <option value="$PROJECT_DIR$/src/com/simon/string/rotatestring/RotateString.java" />
         <option value="$PROJECT_DIR$/src/com/simon/string/contains/Contains.java" />
+        <option value="$USER_HOME$/developer/jdk1.8/jre/lib/rt.jar!/java/util/LinkedList.class" />
+        <option value="$PROJECT_DIR$/src/com/simon/datastructure/list/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/simon/datastructure/list/LinkedListTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="-6" />
-    <option name="width" value="1875" />
-    <option name="height" value="1086" />
+    <option name="x" value="44" />
+    <option name="y" value="-11" />
+    <option name="width" value="1877" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -90,8 +108,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -121,28 +139,6 @@
               <option name="myItemId" value="simon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="string" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeliberatePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeliberatePractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -150,9 +146,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="LinkedList&#9;FILE&#9;jar:///home/simon/developer/jdk1.8/jre/lib/rt.jar!/java/util/LinkedList.class" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/simon/datastructure/list" />
+      <recent name="$PROJECT_DIR$/src/com/simon/datastructure" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -168,40 +167,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Contains.methodTwo">
-    <configuration default="false" name="RotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListTest">
+    <configuration default="false" name="LinkedListTest.testRemoveAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.simon.string.rotatestring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.simon.string.rotatestring.RotateString" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DeliberatePractice" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RotateString.topicOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.simon.string.rotatestring.*" />
+          <option name="PATTERN" value="com.simon.datastructure.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DeliberatePractice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.simon.string.rotatestring" />
-      <option name="MAIN_CLASS_NAME" value="com.simon.string.rotatestring.RotateString" />
-      <option name="METHOD_NAME" value="topicOne" />
+      <option name="PACKAGE_NAME" value="com.simon.datastructure.list" />
+      <option name="MAIN_CLASS_NAME" value="com.simon.datastructure.list.LinkedListTest" />
+      <option name="METHOD_NAME" value="testRemoveAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -215,19 +194,45 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="RotateString.topicTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.simon.string.rotatestring.*" />
+          <option name="PATTERN" value="com.simon.datastructure.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DeliberatePractice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.simon.string.rotatestring" />
-      <option name="MAIN_CLASS_NAME" value="com.simon.string.rotatestring.RotateString" />
-      <option name="METHOD_NAME" value="topicTwo" />
+      <option name="PACKAGE_NAME" value="com.simon.datastructure.list" />
+      <option name="MAIN_CLASS_NAME" value="com.simon.datastructure.list.LinkedListTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedListTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.simon.datastructure.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DeliberatePractice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.simon.datastructure.list" />
+      <option name="MAIN_CLASS_NAME" value="com.simon.datastructure.list.LinkedListTest" />
+      <option name="METHOD_NAME" value="testRemove" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -241,19 +246,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Contains.methodOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="LinkedListTest.testRetainAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.simon.string.contains.*" />
+          <option name="PATTERN" value="com.simon.datastructure.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DeliberatePractice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.simon.string.contains" />
-      <option name="MAIN_CLASS_NAME" value="com.simon.string.contains.Contains" />
-      <option name="METHOD_NAME" value="methodOne" />
+      <option name="PACKAGE_NAME" value="com.simon.datastructure.list" />
+      <option name="MAIN_CLASS_NAME" value="com.simon.datastructure.list.LinkedListTest" />
+      <option name="METHOD_NAME" value="testRetainAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -267,19 +272,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Contains.methodTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="LinkedListTest.testIndexOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.simon.string.contains.*" />
+          <option name="PATTERN" value="com.simon.datastructure.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DeliberatePractice" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.simon.string.contains" />
-      <option name="MAIN_CLASS_NAME" value="com.simon.string.contains.Contains" />
-      <option name="METHOD_NAME" value="methodTwo" />
+      <option name="PACKAGE_NAME" value="com.simon.datastructure.list" />
+      <option name="MAIN_CLASS_NAME" value="com.simon.datastructure.list.LinkedListTest" />
+      <option name="METHOD_NAME" value="testIndexOf" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -498,24 +503,27 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RotateString" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RotateString.topicOne" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RotateString.topicTwo" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Contains.methodOne" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Contains.methodTwo" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LinkedListTest.testRemoveAll" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LinkedListTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedListTest.testRemove" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LinkedListTest.testRetainAll" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LinkedListTest.testIndexOf" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Contains.methodTwo" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Contains.methodOne" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RotateString.topicTwo" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RotateString.topicOne" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RotateString" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LinkedListTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LinkedListTest.testIndexOf" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedListTest.testRetainAll" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LinkedListTest.testRemoveAll" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LinkedListTest.testRemove" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -528,34 +536,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Contains_methodOne - 2017.05.17 at 16h 06m 32s.xml">
-      <configuration name="Contains.methodOne" configurationId="JUnit" />
+    <history-entry file="LinkedListTest - 2017.05.18 at 17h 25m 53s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Contains_methodOne - 2017.05.17 at 16h 06m 39s.xml">
-      <configuration name="Contains.methodOne" configurationId="JUnit" />
+    <history-entry file="LinkedListTest - 2017.05.18 at 18h 22m 40s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Contains_methodOne - 2017.05.17 at 16h 08m 40s.xml">
-      <configuration name="Contains.methodOne" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testIndexOf - 2017.05.18 at 18h 22m 28s.xml">
+      <configuration name="LinkedListTest.testIndexOf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Contains_methodOne - 2017.05.17 at 16h 08m 46s.xml">
-      <configuration name="Contains.methodOne" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testRemove - 2017.05.18 at 17h 45m 51s.xml">
+      <configuration name="LinkedListTest.testRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Contains_methodTwo - 2017.05.17 at 16h 19m 41s.xml">
-      <configuration name="Contains.methodTwo" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testRemoveAll - 2017.05.18 at 17h 36m 35s.xml">
+      <configuration name="LinkedListTest.testRemoveAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Contains_methodTwo - 2017.05.17 at 16h 19m 50s.xml">
-      <configuration name="Contains.methodTwo" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testRemoveAll - 2017.05.18 at 17h 45m 18s.xml">
+      <configuration name="LinkedListTest.testRemoveAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_topicOne - 2017.05.17 at 15h 16m 42s.xml">
-      <configuration name="Main.topicOne" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testRemoveAll - 2017.05.18 at 17h 46m 14s.xml">
+      <configuration name="LinkedListTest.testRemoveAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_topicTwo - 2017.05.17 at 15h 19m 36s.xml">
-      <configuration name="Main.topicTwo" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testRemoveAll - 2017.05.18 at 17h 46m 33s.xml">
+      <configuration name="LinkedListTest.testRemoveAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testRetainAll - 2017.05.18 at 18h 20m 37s.xml">
+      <configuration name="LinkedListTest.testRetainAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testToArray - 2017.05.18 at 17h 25m 41s.xml">
+      <configuration name="LinkedListTest.testToArray" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="-6" width="1875" height="1086" extended-state="6" />
-    <editor active="true" />
+    <frame x="44" y="-11" width="1877" height="1092" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -566,13 +579,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25991648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3256785" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18589394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17769273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -584,7 +598,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -603,6 +616,14 @@
     <entry file="file://$PROJECT_DIR$/src/consumerandproducer/C.java" />
     <entry file="file://$PROJECT_DIR$/src/consumerandproducer/Stack.java" />
     <entry file="file://$PROJECT_DIR$/src/consumerandproducer/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/simon/string/contains/Contains.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/simon/string/rotatestring/RotateString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -611,11 +632,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/simon/string/contains/Contains.java">
+    <entry file="jar://$USER_HOME$/developer/jdk1.8/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="50" column="28" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="177">
+          <caret line="359" column="18" lean-forward="true" selection-start-line="359" selection-start-column="18" selection-end-line="359" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/developer/jdk1.8/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1087" column="29" lean-forward="true" selection-start-line="1087" selection-start-column="29" selection-end-line="1087" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/developer/jdk1.8/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/developer/jdk1.8/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="406" column="13" lean-forward="true" selection-start-line="406" selection-start-column="13" selection-end-line="406" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/developer/jdk1.8/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="70" column="54" lean-forward="false" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/developer/jdk1.8/src.zip!/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="68" column="59" lean-forward="false" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/developer/jdk1.8/jre/lib/rt.jar!/java/util/LinkedList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#22020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/list/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="190" column="28" lean-forward="false" selection-start-line="190" selection-start-column="19" selection-end-line="190" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8192#8193#0" expanded="true" />
+            <element signature="e#8246#8247#0" expanded="true" />
+            <element signature="e#8620#8621#0" expanded="true" />
+            <element signature="e#8658#8659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/list/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="192" column="51" lean-forward="false" selection-start-line="192" selection-start-column="51" selection-end-line="192" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
