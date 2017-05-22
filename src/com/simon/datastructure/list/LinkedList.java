@@ -133,7 +133,9 @@ public class LinkedList<E> implements List<E> {
     private void removeNode(Node<E> node) {
         if(node == head) {
             head = node.next;
-            head.prev = null;
+            if(head != null) {
+                head.prev = null;
+            }
         } else if(node == tail) {
             tail = node.prev;
             tail.next = null;
