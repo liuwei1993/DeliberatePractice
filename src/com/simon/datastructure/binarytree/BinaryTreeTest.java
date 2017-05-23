@@ -21,6 +21,7 @@ public class BinaryTreeTest {
         assertEquals("e", rootNode.rightChild.rightChild.data);
     }
 
+
     @Test
     public void testPreOrder() {
         Queue dataQueue = LinkedQueue.createQueue(new String[]{"a","b","#","d","#","#","c","#","e","#","#"});
@@ -69,6 +70,27 @@ public class BinaryTreeTest {
         assertEquals("dbeca", result);
     }
 
+    @Test
+    public void testCreateTreeByPreInOrder() {
+
+        BinaryTree binaryTree = BinaryTree.createTreeByPreInOrder("abdce","bdace");
+
+        assertEquals("abdce", binaryTree.preOrderErgodic());
+
+        assertEquals("bdace", binaryTree.midOrderErgodic());
+
+    }
+
+    @Test
+    public void testCreateTreeByInPostOrder() {
+
+        BinaryTree binaryTree = BinaryTree.createTreeByInPostOrder("bdace","dbeca");
+
+        assertEquals("abdce", binaryTree.preOrderErgodic());
+
+        assertEquals("bdace", binaryTree.midOrderErgodic());
+
+    }
 
 
 }
