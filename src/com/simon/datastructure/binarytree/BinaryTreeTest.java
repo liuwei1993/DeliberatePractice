@@ -38,10 +38,10 @@ public class BinaryTreeTest {
     }
 
     @Test
-    public void testBackOrder() {
+    public void testPostOrder() {
         Queue dataQueue = LinkedQueue.createQueue(new String[]{"a","b","#","d","#","#","c","#","e","#","#"});
         BinaryTree binaryTree = BinaryTree.createTreeByPreOrderDev(dataQueue);
-        String result = binaryTree.backOrderErgodic();
+        String result = binaryTree.postOrderErgodic();
         assertEquals("dbeca", result);
     }
 
@@ -60,5 +60,15 @@ public class BinaryTreeTest {
         String result = binaryTree.midOrderUnergodic();
         assertEquals("bdace", result);
     }
+
+    @Test
+    public void testPostOrderUnergodic() {
+        Queue dataQueue = LinkedQueue.createQueue(new String[]{"a","b","#","d","#","#","c","#","e","#","#"});
+        BinaryTree binaryTree = BinaryTree.createTreeByPreOrderDev(dataQueue);
+        String result = binaryTree.postOrderUnergodic();
+        assertEquals("dbeca", result);
+    }
+
+
 
 }

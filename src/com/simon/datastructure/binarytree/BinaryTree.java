@@ -58,16 +58,16 @@ public class BinaryTree {
         }
     }
 
-    public String backOrderErgodic() {
+    public String postOrderErgodic() {
         StringBuilder sb = new StringBuilder();
-        backOrderErgodic(rootNode, sb);
+        postOrderErgodic(rootNode, sb);
         return sb.toString();
     }
 
-    private void backOrderErgodic(TreeNode rootNode,StringBuilder sb) {
+    private void postOrderErgodic(TreeNode rootNode, StringBuilder sb) {
         if(rootNode != null) {
-            backOrderErgodic(rootNode.leftChild, sb);
-            backOrderErgodic(rootNode.rightChild, sb);
+            postOrderErgodic(rootNode.leftChild, sb);
+            postOrderErgodic(rootNode.rightChild, sb);
             sb.append(rootNode.data);
         }
     }
@@ -102,6 +102,39 @@ public class BinaryTree {
             pointer = pointer.rightChild;
         }
         return sb.toString();
+    }
+
+    public String postOrderUnergodic() {
+        StringBuilder sb = new StringBuilder();
+        Stack<TreeNodeWrap> stack = new Stack<>();
+
+        TreeNode pointer = rootNode;
+
+        while (pointer != null || !stack.isEmpty()) {
+            while (pointer != null) {
+                stack.push(new TreeNodeWrap(pointer));
+                pointer = pointer.leftChild;
+            }
+            if(!stack.peek().accessed) {
+                TreeNodeWrap topNode = stack.peek();
+                topNode.accessed = true;
+                pointer = topNode.treeNode.rightChild;
+            } else {
+                while (stack.peek() != null && stack.peek().accessed) {
+                    sb.append(stack.pop().treeNode.data);
+                }
+            }
+        }
+        return sb.toString();
+    }
+
+    static class TreeNodeWrap {
+        TreeNodeWrap(TreeNode treeNode) {
+            this.treeNode = treeNode;
+        }
+
+        TreeNode treeNode;
+        boolean accessed = false;
     }
 
 }

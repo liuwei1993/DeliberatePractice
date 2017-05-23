@@ -28,6 +28,9 @@ public class Stack<T> {
         return true;
     }
 
+    public T peek() {
+        return head == null ? null : head.data;
+    }
 
     public T pop() {
         if(head == null) return null;
