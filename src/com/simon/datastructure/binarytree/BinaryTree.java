@@ -2,6 +2,7 @@ package com.simon.datastructure.binarytree;
 
 import com.simon.datastructure.queue.Queue;
 import com.simon.datastructure.stack.Stack;
+import com.simon.string.StringWrap;
 
 /**
  * binary tree
@@ -40,7 +41,7 @@ public class BinaryTree {
 
     private static TreeNode createTreeByPreInOrder(StringWrap pre, StringWrap in) {
         //1 step get first element of pre, and split tree
-        if (pre.length == 0) return null;
+        if (pre.length() == 0) return null;
         String rootData = pre.firstChar();
         int indexOfRootInOrder = in.indexOf(rootData);
         if(indexOfRootInOrder == -1) {
@@ -55,8 +56,8 @@ public class BinaryTree {
         rootNode.leftChild = createTreeByPreInOrder(subPreLeft, subInLeft);
 
         //3 step create right tree
-        StringWrap subPreRight = new StringWrap(pre, indexOfRootInOrder + 1, pre.length - indexOfRootInOrder - 1);
-        StringWrap subInRight = new StringWrap(in, indexOfRootInOrder + 1, in.length - indexOfRootInOrder - 1);
+        StringWrap subPreRight = new StringWrap(pre, indexOfRootInOrder + 1, pre.length() - indexOfRootInOrder - 1);
+        StringWrap subInRight = new StringWrap(in, indexOfRootInOrder + 1, in.length() - indexOfRootInOrder - 1);
         rootNode.rightChild = createTreeByPreInOrder(subPreRight, subInRight);
         return rootNode;
     }
@@ -71,7 +72,7 @@ public class BinaryTree {
 
     private static TreeNode createTreeByInPostOrder(StringWrap in, StringWrap post) {
         //1 step
-        if(in.length == 0) return null;
+        if(in.length() == 0) return null;
         String rootData = post.endChar();
         int indexOfInOrder = in.indexOf(rootData);
         if(indexOfInOrder == -1) {
@@ -86,64 +87,11 @@ public class BinaryTree {
         rootNode.leftChild = createTreeByInPostOrder(subInLeft, subPostLeft);
 
         //3 step
-        StringWrap subInRight = new StringWrap(in, indexOfInOrder + 1, in.length - indexOfInOrder - 1);
-        StringWrap subPostRight = new StringWrap(post, indexOfInOrder, in.length - indexOfInOrder - 1);
+        StringWrap subInRight = new StringWrap(in, indexOfInOrder + 1, in.length() - indexOfInOrder - 1);
+        StringWrap subPostRight = new StringWrap(post, indexOfInOrder, in.length() - indexOfInOrder - 1);
         rootNode.rightChild = createTreeByInPostOrder(subInRight, subPostRight);
 
         return rootNode;
-    }
-
-    static class StringWrap {
-        final String string;
-        int start;
-        int length;
-
-        public StringWrap(String string, int start, int length) {
-            this.string = string;
-            this.start = start;
-            this.length = length;
-            checkBounds(string, start, length);
-        }
-
-        private void checkBounds(String string, int start, int length) {
-            if(length == 0) return;
-            int strLength = string.length();
-            if (start > strLength - 1 || start + length > strLength) {
-                throw new IllegalArgumentException("out of bounds start " + start + " length " + length + " str length " + strLength);
-            }
-        }
-
-        public StringWrap(StringWrap stringWrap, int start, int length) {
-            this.string = stringWrap.string;
-            this.start = stringWrap.start + start;
-            this.length = length;
-            checkBounds(string, this.start, length);
-        }
-
-        String charAt(int index) {
-            return String.valueOf(string.charAt(index + start));
-        }
-
-        int indexOf(String s) {
-            if (s != null) {
-                for (int i = 0; i < length; i++) {
-                    String charAt = charAt(i);
-                    if (s.equals(charAt)) {
-                        return i;
-                    }
-                }
-            }
-            return -1;
-        }
-
-        String firstChar() {
-            return charAt(0);
-        }
-
-        String endChar() {
-            return charAt(length - 1);
-        }
-
     }
 
     public String preOrderErgodic() {
