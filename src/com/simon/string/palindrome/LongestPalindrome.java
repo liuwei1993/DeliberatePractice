@@ -4,6 +4,8 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
+import static org.junit.Assert.assertEquals;
+
 /**
  * 最长回文串查找
  * Created by simon on 17-5-23.
@@ -12,7 +14,7 @@ public class LongestPalindrome {
 
     @Test
     public void testFindLongestPalindrome() {
-        findLongestPalindrome("4777312139856287");
+        assertEquals("31213",findLongestPalindrome("4777312139856287"));
     }
 
     String findLongestPalindrome(String srcStr) {
