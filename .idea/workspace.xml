@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291b95a8-4303-496f-b1ea-3078b60b9b85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simon/string/permutation/AllPermutation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/string/palindrome/LongestPalindrome.java" afterPath="$PROJECT_DIR$/src/com/simon/string/palindrome/LongestPalindrome.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/string/permutation/AllPermutation.java" afterPath="$PROJECT_DIR$/src/com/simon/string/permutation/AllPermutation.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,12 +54,14 @@
       <file leaf-file-name="AllPermutation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/simon/string/permutation/AllPermutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="53" column="41" lean-forward="true" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            <state relative-caret-position="460">
+              <caret line="77" column="32" lean-forward="false" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#2118#2119#0" expanded="true" />
+                <element signature="e#2173#2174#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/com/simon/string/StringWrap.java" />
         <option value="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/simon/string/palindrome/LongestPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/com/simon/string/permutation/AllPermutation.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/simon/string/permutation/AllPermutation.java" />
       </list>
     </option>
   </component>
@@ -266,33 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AllPermutation.testCalcAllPermutationNotSimple">
-    <configuration default="false" name="LongestPalindrome.findLongestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.simon.string.palindrome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DeliberatePractice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.simon.string.palindrome" />
-      <option name="MAIN_CLASS_NAME" value="com.simon.string.palindrome.LongestPalindrome" />
-      <option name="METHOD_NAME" value="findLongestPalindrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AllPermutation.testCalcAllPermutation">
     <configuration default="false" name="LongestPalindrome.testFindLongestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -384,6 +357,32 @@
       <option name="PACKAGE_NAME" value="com.simon.string.permutation" />
       <option name="MAIN_CLASS_NAME" value="com.simon.string.permutation.AllPermutation" />
       <option name="METHOD_NAME" value="testCalcAllPermutationNotSimple" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AllPermutation.testCaclAllCombination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.simon.string.permutation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DeliberatePractice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.simon.string.permutation" />
+      <option name="MAIN_CLASS_NAME" value="com.simon.string.permutation.AllPermutation" />
+      <option name="METHOD_NAME" value="testCaclAllCombination" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -602,19 +601,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LongestPalindrome.findLongestPalindrome" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LongestPalindrome.testFindLongestPalindrome" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutation" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutation2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutationNotSimple" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LongestPalindrome.testFindLongestPalindrome" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutation" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutation2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutationNotSimple" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCaclAllCombination" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutationNotSimple" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutation2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutation" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LongestPalindrome.testFindLongestPalindrome" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LongestPalindrome.findLongestPalindrome" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutation" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutationNotSimple" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCaclAllCombination" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AllPermutation.testCalcAllPermutation2" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LongestPalindrome.testFindLongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -635,34 +634,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllPermutation_testCalcAllPermutation2 - 2017.05.26 at 15h 00m 14s.xml">
-      <configuration name="AllPermutation.testCalcAllPermutation2" configurationId="JUnit" />
+    <history-entry file="AllPermutation_testCaclAllCombination - 2017.05.26 at 18h 43m 36s.xml">
+      <configuration name="AllPermutation.testCaclAllCombination" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllPermutation_testCalcAllPermutation2 - 2017.05.26 at 15h 01m 34s.xml">
-      <configuration name="AllPermutation.testCalcAllPermutation2" configurationId="JUnit" />
+    <history-entry file="AllPermutation_testCaclAllCombination - 2017.05.26 at 18h 44m 22s.xml">
+      <configuration name="AllPermutation.testCaclAllCombination" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllPermutation_testCalcAllPermutation2 - 2017.05.26 at 15h 02m 30s.xml">
-      <configuration name="AllPermutation.testCalcAllPermutation2" configurationId="JUnit" />
+    <history-entry file="AllPermutation_testCaclAllCombination - 2017.05.26 at 18h 45m 20s.xml">
+      <configuration name="AllPermutation.testCaclAllCombination" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllPermutation_testCalcAllPermutation2 - 2017.05.26 at 15h 02m 49s.xml">
-      <configuration name="AllPermutation.testCalcAllPermutation2" configurationId="JUnit" />
+    <history-entry file="AllPermutation_testCalcAllPermutation - 2017.05.26 at 18h 55m 54s.xml">
+      <configuration name="AllPermutation.testCalcAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllPermutation_testCalcAllPermutation2 - 2017.05.26 at 15h 03m 53s.xml">
-      <configuration name="AllPermutation.testCalcAllPermutation2" configurationId="JUnit" />
+    <history-entry file="AllPermutation_testCalcAllPermutation - 2017.05.26 at 19h 10m 03s.xml">
+      <configuration name="AllPermutation.testCalcAllPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllPermutation_testCalcAllPermutationNotSimple - 2017.05.26 at 15h 13m 50s.xml">
+    <history-entry file="AllPermutation_testCalcAllPermutation - 2017.05.26 at 19h 17m 29s.xml">
+      <configuration name="AllPermutation.testCalcAllPermutation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllPermutation_testCalcAllPermutation - 2017.05.26 at 19h 22m 46s.xml">
+      <configuration name="AllPermutation.testCalcAllPermutation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllPermutation_testCalcAllPermutation - 2017.05.26 at 19h 23m 09s.xml">
+      <configuration name="AllPermutation.testCalcAllPermutation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllPermutation_testCalcAllPermutationNotSimple - 2017.05.26 at 18h 31m 52s.xml">
       <configuration name="AllPermutation.testCalcAllPermutationNotSimple" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllPermutation_testCalcAllPermutationNotSimple - 2017.05.26 at 15h 18m 05s.xml">
-      <configuration name="AllPermutation.testCalcAllPermutationNotSimple" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllPermutation_testCalcAllPermutationNotSimple - 2017.05.26 at 15h 23m 09s.xml">
-      <configuration name="AllPermutation.testCalcAllPermutationNotSimple" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllPermutation_testCalcAllPermutationNotSimple - 2017.05.26 at 15h 27m 46s.xml">
-      <configuration name="AllPermutation.testCalcAllPermutationNotSimple" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllPermutation_testCalcAllPermutationNotSimple - 2017.05.26 at 15h 28m 20s.xml">
+    <history-entry file="AllPermutation_testCalcAllPermutationNotSimple - 2017.05.26 at 18h 51m 01s.xml">
       <configuration name="AllPermutation.testCalcAllPermutationNotSimple" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -680,7 +679,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25588864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3522484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -691,7 +690,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23768736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39721626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -735,7 +734,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -748,13 +747,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/developer/jdk1.8/src.zip!/java/util/AbstractSequentialList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="68" column="59" lean-forward="false" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/developer/jdk1.8/jre/lib/rt.jar!/java/util/LinkedList.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1059,14 +1051,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/simon/string/permutation/AllPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="53" column="41" lean-forward="true" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        <state relative-caret-position="460">
+          <caret line="77" column="32" lean-forward="false" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#2118#2119#0" expanded="true" />
+            <element signature="e#2173#2174#0" expanded="true" />
           </folding>
         </state>
       </provider>
