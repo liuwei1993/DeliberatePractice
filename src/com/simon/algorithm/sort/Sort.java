@@ -27,12 +27,18 @@ public class Sort {
         quickSort(data, 0, data.length - 1);
         System.out.println("after sort \n" + Arrays.toString(data));
     }
-    
-	void swap(int[] data, int i, int j) {
+
+    static void swap(int[] data, int i, int j) {
 		int temp = data[i];
 		data[i] = data[j];
 		data[j] = temp;
 	}
+
+    static void swap(char[] data, int i, int j) {
+        char temp = data[i];
+        data[i] = data[j];
+        data[j] = temp;
+    }
 
     void selectSort(int[] data, int start, int end) {
         if(end != start) {
@@ -49,7 +55,11 @@ public class Sort {
         }
     }
 
-    void quickSort(int[] data, int start, int end) {
+    public static void quickSort(char[] data) {
+        quickSort(data,0,data.length - 1);
+    }
+
+    public static void quickSort(int[] data, int start, int end) {
 		if (start < end) {
 			int base = data[start];
 			int i = start;
@@ -68,5 +78,27 @@ public class Sort {
 			quickSort(data, j + 1, end);
 		}
 	}
+
+    public static void quickSort(char[] data, int start, int end) {
+        if (start < end) {
+            int base = data[start];
+            int i = start;
+            int j = end + 1;
+            while (true) {
+                while (i < end && data[++i] <= base);
+                while (j > start && data[--j] >= base);
+                if (i < j) {
+                    swap(data, i, j);
+                } else {
+                    break;
+                }
+            }
+            swap(data, start, j);
+            quickSort(data, start, j - 1);
+            quickSort(data, j + 1, end);
+        }
+    }
+
+
 
 }
