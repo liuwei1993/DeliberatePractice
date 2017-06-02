@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291b95a8-4303-496f-b1ea-3078b60b9b85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/array/BinarySearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simon/string/exercises/Exercises.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/algorithm/sort/Sort.java" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/sort/Sort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/string/exercises/Exercises.java" afterPath="$PROJECT_DIR$/src/com/simon/string/exercises/Exercises.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +43,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
               <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,10 +67,14 @@
       <file leaf-file-name="Exercises.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/simon/string/exercises/Exercises.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="206" column="20" lean-forward="true" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
+            <state relative-caret-position="470">
+              <caret line="375" column="0" lean-forward="true" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#10571#10572#0" expanded="true" />
+                <element signature="e#10644#10645#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,8 +354,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,111 +384,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Exercises.testLinkedListIntersect">
-    <configuration default="false" name="Exercises.testPrintFirstOnceLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.simon.string.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DeliberatePractice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.simon.string.exercises" />
-      <option name="MAIN_CLASS_NAME" value="com.simon.string.exercises.Exercises" />
-      <option name="METHOD_NAME" value="testPrintFirstOnceLetter" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BinarySearch.testBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.simon.algorithm.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DeliberatePractice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.simon.algorithm.array" />
-      <option name="MAIN_CLASS_NAME" value="com.simon.algorithm.array.BinarySearch" />
-      <option name="METHOD_NAME" value="testBinarySearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Exercises.testPrintFirstOnceChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.simon.string.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DeliberatePractice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.simon.string.exercises" />
-      <option name="MAIN_CLASS_NAME" value="com.simon.string.exercises.Exercises" />
-      <option name="METHOD_NAME" value="testPrintFirstOnceChar" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Exercises.testFindLongestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.simon.string.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DeliberatePractice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.simon.string.exercises" />
-      <option name="MAIN_CLASS_NAME" value="com.simon.string.exercises.Exercises" />
-      <option name="METHOD_NAME" value="testFindLongestPalindrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.Exercises.testPrintEveryCharCount">
     <configuration default="false" name="Exercises.testLinkedListIntersect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -504,6 +398,110 @@
       <option name="PACKAGE_NAME" value="com.simon.string.exercises" />
       <option name="MAIN_CLASS_NAME" value="com.simon.string.exercises.Exercises" />
       <option name="METHOD_NAME" value="testLinkedListIntersect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Exercises.testReverseLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.simon.string.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DeliberatePractice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.simon.string.exercises" />
+      <option name="MAIN_CLASS_NAME" value="com.simon.string.exercises.Exercises" />
+      <option name="METHOD_NAME" value="testReverseLinkedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Exercises.testDeleteLinkedListNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.simon.string.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DeliberatePractice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.simon.string.exercises" />
+      <option name="MAIN_CLASS_NAME" value="com.simon.string.exercises.Exercises" />
+      <option name="METHOD_NAME" value="testDeleteLinkedListNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Exercises.testDeleteCharsOfString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.simon.string.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DeliberatePractice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.simon.string.exercises" />
+      <option name="MAIN_CLASS_NAME" value="com.simon.string.exercises.Exercises" />
+      <option name="METHOD_NAME" value="testDeleteCharsOfString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Exercises.testPrintEveryCharCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.simon.string.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DeliberatePractice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.simon.string.exercises" />
+      <option name="MAIN_CLASS_NAME" value="com.simon.string.exercises.Exercises" />
+      <option name="METHOD_NAME" value="testPrintEveryCharCount" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -722,19 +720,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Exercises.testPrintFirstOnceLetter" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BinarySearch.testBinarySearch" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Exercises.testPrintFirstOnceChar" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Exercises.testFindLongestPalindrome" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Exercises.testLinkedListIntersect" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Exercises.testLinkedListIntersect" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Exercises.testReverseLinkedList" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Exercises.testDeleteLinkedListNode" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Exercises.testDeleteCharsOfString" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Exercises.testPrintEveryCharCount" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Exercises.testLinkedListIntersect" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Exercises.testFindLongestPalindrome" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Exercises.testPrintFirstOnceChar" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BinarySearch.testBinarySearch" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Exercises.testPrintFirstOnceLetter" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Exercises.testPrintEveryCharCount" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Exercises.testDeleteCharsOfString" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Exercises.testDeleteLinkedListNode" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Exercises.testReverseLinkedList" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Exercises.testLinkedListIntersect" />
       </list>
     </recent_temporary>
   </component>
@@ -755,39 +753,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Exercises_testLinkedListIntersect - 2017.05.27 at 18h 23m 17s.xml">
-      <configuration name="Exercises.testLinkedListIntersect" configurationId="JUnit" />
+    <history-entry file="Exercises_testDeleteCharsOfString - 2017.06.01 at 12h 57m 49s.xml">
+      <configuration name="Exercises.testDeleteCharsOfString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercises_testLinkedListIntersect - 2017.05.27 at 18h 54m 20s.xml">
-      <configuration name="Exercises.testLinkedListIntersect" configurationId="JUnit" />
+    <history-entry file="Exercises_testDeleteLinkedListNode - 2017.06.01 at 11h 22m 48s.xml">
+      <configuration name="Exercises.testDeleteLinkedListNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercises_testLinkedListIntersect - 2017.05.27 at 18h 54m 54s.xml">
-      <configuration name="Exercises.testLinkedListIntersect" configurationId="JUnit" />
+    <history-entry file="Exercises_testDeleteLinkedListNode - 2017.06.01 at 11h 22m 57s.xml">
+      <configuration name="Exercises.testDeleteLinkedListNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercises_testLinkedListIntersect - 2017.05.27 at 19h 00m 06s.xml">
-      <configuration name="Exercises.testLinkedListIntersect" configurationId="JUnit" />
+    <history-entry file="Exercises_testDeleteLinkedListNode - 2017.06.01 at 11h 25m 43s.xml">
+      <configuration name="Exercises.testDeleteLinkedListNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercises_testLinkedListIntersect - 2017.05.27 at 19h 10m 52s.xml">
-      <configuration name="Exercises.testLinkedListIntersect" configurationId="JUnit" />
+    <history-entry file="Exercises_testPrintEveryCharCount - 2017.06.02 at 11h 11m 48s.xml">
+      <configuration name="Exercises.testPrintEveryCharCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercises_testPrintFirstOnceChar - 2017.05.27 at 16h 13m 45s.xml">
-      <configuration name="Exercises.testPrintFirstOnceChar" configurationId="JUnit" />
+    <history-entry file="Exercises_testPrintEveryCharCount - 2017.06.02 at 11h 12m 28s.xml">
+      <configuration name="Exercises.testPrintEveryCharCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercises_testPrintFirstOnceChar - 2017.05.27 at 16h 14m 24s.xml">
-      <configuration name="Exercises.testPrintFirstOnceChar" configurationId="JUnit" />
+    <history-entry file="Exercises_testReverseLinkedList - 2017.06.01 at 10h 35m 54s.xml">
+      <configuration name="Exercises.testReverseLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercises_testPrintFirstOnceChar - 2017.05.27 at 16h 14m 51s.xml">
-      <configuration name="Exercises.testPrintFirstOnceChar" configurationId="JUnit" />
+    <history-entry file="Exercises_testReverseLinkedList - 2017.06.01 at 10h 36m 49s.xml">
+      <configuration name="Exercises.testReverseLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercises_testPrintFirstOnceChar - 2017.05.27 at 16h 28m 28s.xml">
-      <configuration name="Exercises.testPrintFirstOnceChar" configurationId="JUnit" />
+    <history-entry file="Exercises_testReverseLinkedList - 2017.06.01 at 10h 37m 22s.xml">
+      <configuration name="Exercises.testReverseLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Exercises_testPrintFirstOnceChar - 2017.05.27 at 16h 28m 53s.xml">
-      <configuration name="Exercises.testPrintFirstOnceChar" configurationId="JUnit" />
+    <history-entry file="Exercises_testReverseLinkedList - 2017.06.01 at 10h 38m 19s.xml">
+      <configuration name="Exercises.testReverseLinkedList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="-6" width="1875" height="1086" extended-state="6" />
+    <frame x="45" y="-6" width="1875" height="1086" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -799,13 +797,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2987152" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24518201" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16439104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1660295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1085,14 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/developer/jdk1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="655" column="16" lean-forward="false" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -1173,20 +1163,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/developer/jdk1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="961" column="74" lean-forward="true" selection-start-line="961" selection-start-column="74" selection-end-line="961" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/simon/string/exercises/Exercises.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="206" column="20" lean-forward="true" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
+        <state relative-caret-position="470">
+          <caret line="375" column="0" lean-forward="true" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#10571#10572#0" expanded="true" />
+            <element signature="e#10644#10645#0" expanded="true" />
           </folding>
         </state>
       </provider>
