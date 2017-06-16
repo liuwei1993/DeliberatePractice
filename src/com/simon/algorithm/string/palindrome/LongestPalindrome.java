@@ -1,4 +1,4 @@
-package com.simon.string.palindrome;
+package com.simon.algorithm.string.palindrome;
 
 import org.junit.Test;
 

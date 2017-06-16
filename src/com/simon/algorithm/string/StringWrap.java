@@ -1,4 +1,4 @@
-package com.simon.string;
+package com.simon.algorithm.string;
 
 public class StringWrap {
         final String string;

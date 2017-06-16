@@ -1,4 +1,4 @@
-package com.simon.string.exercises;
+package com.simon.algorithm.string.exercises;
 
 import com.simon.algorithm.array.BinarySearch;
 import com.simon.algorithm.sort.Sort;

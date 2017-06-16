@@ -1,4 +1,4 @@
-package com.simon.string.rotatestring;
+package com.simon.algorithm.string.rotatestring;
 
 import org.junit.Test;
 

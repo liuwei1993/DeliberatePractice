@@ -1,4 +1,4 @@
-package com.simon.string.permutation;
+package com.simon.algorithm.string.permutation;
 
 import org.junit.Test;
 

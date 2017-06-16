@@ -2,7 +2,7 @@ package com.simon.datastructure.binarytree;
 
 import com.simon.datastructure.queue.Queue;
 import com.simon.datastructure.stack.Stack;
-import com.simon.string.StringWrap;
+import com.simon.algorithm.string.StringWrap;
 
 /**
  * binary tree

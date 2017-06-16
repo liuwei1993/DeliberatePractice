@@ -1,4 +1,4 @@
-package com.simon.string.contains;
+package com.simon.algorithm.string.contains;
 
 import org.junit.Test;
 
