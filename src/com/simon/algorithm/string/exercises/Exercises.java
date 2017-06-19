@@ -1,7 +1,7 @@
 package com.simon.algorithm.string.exercises;
 
 import com.simon.algorithm.array.BinarySearch;
-import com.simon.algorithm.sort.Sort;
+import com.simon.algorithm.sort.impl.QuickSort;
 import com.simon.datastructure.stack.Stack;
 import org.junit.Test;
 
@@ -55,7 +55,7 @@ public class Exercises {
     char printFirstOnceChar(char[] chars) {
         int length = chars.length;
         char[] copyOfChars = Arrays.copyOf(chars, length);
-        Sort.quickSort(copyOfChars);
+        QuickSort.quickSort(copyOfChars);
         char[] onceChars = new char[length];
         int onceCharsCount = 0;
         for (int i = 0; i < length; i++) {
