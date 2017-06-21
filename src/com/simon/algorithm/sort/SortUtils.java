@@ -19,7 +19,7 @@ public class SortUtils {
     public static int[] createRandomArray(int length, int max) {
         int[] data = new int[length];
         for (int i = 0; i < length; i++) {
-            data[i] = (int) (Math.abs(Math.random()) * max);
+            data[i] = (int) (Math.abs(Math.random()) * (max - 1) + 1);//防止出现0
         }
         return data;
     }
@@ -113,6 +113,18 @@ public class SortUtils {
         }
     }
 
+
+    public static boolean checkSort(int[] data) {
+        boolean isSort = true;
+        for (int j = 1; j < data.length; j++) {
+            if(data[j - 1] > data[j]) {
+                isSort = false;
+                System.out.println("data[" + (j-1) + "] : " +  data[j - 1] );
+                System.out.println("data[" + j + "] : " +  data[j] );
+            }
+        }
+        return isSort;
+    }
 
 
 }

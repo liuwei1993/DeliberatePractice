@@ -28,7 +28,7 @@ public class ShellSort extends BaseSort {
 
     void shellSort(int[] data, int start, int end) {
         int length = end - start + 1;
-        for (int gap = length / 3; gap > 0 ; gap /= 3) {
+        for (int gap = length / 2; gap > 0 ; gap /= 2) {
             for (int i = 0; i < gap; i++) {
                 //插入排序
                 insertSort.insertSort(data, i + start, end, gap);

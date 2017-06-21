@@ -125,8 +125,6 @@ public class QuickSort extends BaseSort {
         swap(data, start, lt);
         quickSort3Ways(data, start, lt - 1);
         quickSort3Ways(data, gt, end);
-
-
     }
 
     private static int partition(char[] data, int start, int end) {
