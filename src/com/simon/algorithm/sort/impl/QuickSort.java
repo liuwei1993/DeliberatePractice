@@ -45,12 +45,12 @@ public class QuickSort extends BaseSort {
 
     @Override
     public void sort(int[] data, int start, int end) {
-        quickSort(data, start, end);
+        quickSort3Ways(data, start, end);
     }
 
     @Override
     public void sort(int[] data) {
-        quickSort(data, 0, data.length - 1);
+        quickSort3Ways(data, 0, data.length - 1);
     }
 
 
