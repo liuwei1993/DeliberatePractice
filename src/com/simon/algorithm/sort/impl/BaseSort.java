@@ -3,8 +3,8 @@ package com.simon.algorithm.sort.impl;
 import com.simon.algorithm.sort.ISort;
 import org.junit.Test;
 
-import static com.simon.algorithm.sort.SortUtils.createAlmostOrderArray;
-import static com.simon.algorithm.sort.SortUtils.createRandomArray;
+import static com.simon.algorithm.ArrayUtils.createAlmostOrderArray;
+import static com.simon.algorithm.ArrayUtils.createRandomArray;
 
 /**
  * BaseSort with test case

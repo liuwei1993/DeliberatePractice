@@ -4,9 +4,9 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-import static com.simon.algorithm.sort.SortUtils.computeHexCount;
-import static com.simon.algorithm.sort.SortUtils.createRandomArray;
-import static com.simon.algorithm.sort.SortUtils.intAtHexPos;
+import static com.simon.algorithm.ArrayUtils.computeHexCount;
+import static com.simon.algorithm.ArrayUtils.createRandomArray;
+import static com.simon.algorithm.ArrayUtils.intAtHexPos;
 
 /**
  * CountingRadixSort

@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291b95a8-4303-496f-b1ea-3078b60b9b85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTreeTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/simon/algorithm/sort/SortUtils.java" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/ArrayUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/BaseSort.java" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/BaseSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/BubbleSort.java" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/BubbleSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/CountingRadixSort.java" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/CountingRadixSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/HeapSort.java" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/HeapSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/InsertSort.java" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/InsertSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/QuickSort.java" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/QuickSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/RadixSort.java" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/RadixSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/SelectSort.java" afterPath="$PROJECT_DIR$/src/com/simon/algorithm/sort/impl/SelectSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTreeTest.java" afterPath="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTreeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/TreeNode.java" afterPath="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/TreeNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simon/datastructure/heap/HeapTest.java" afterPath="$PROJECT_DIR$/src/com/simon/datastructure/heap/HeapTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="197">
+              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
@@ -36,21 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinaryTreeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTreeTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BinarySearchTreeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="128">
+              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="e#187#188#0" expanded="true" />
                 <element signature="e#219#220#0" expanded="true" />
@@ -76,6 +76,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
               <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/simon/algorithm/ArrayUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -110,10 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/simon/rotatestring/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/simon/string/rotatestring/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/simon/string/rotatestring/RotateString.java" />
-        <option value="$USER_HOME$/developer/jdk1.8/jre/lib/rt.jar!/java/util/LinkedList.class" />
         <option value="$PROJECT_DIR$/src/com/simon/datastructure/list/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/com/simon/algorithm/array/SumOfkNumber.java" />
         <option value="$PROJECT_DIR$/src/com/simon/algorithm/sort/DataWrap.java" />
@@ -159,8 +165,12 @@
         <option value="$PROJECT_DIR$/src/com/simon/datastructure/heap/MaxHeap.java" />
         <option value="$PROJECT_DIR$/src/com/simon/datastructure/heap/IndexMaxHeap.java" />
         <option value="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinaryTreeUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/simon/algorithm/SortUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/simon/algorithm/ArrayUtils.java" />
       </list>
     </option>
   </component>
@@ -242,14 +252,6 @@
               <option name="myItemId" value="simon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastructure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binarytree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -266,6 +268,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="simon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,6 +294,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,7 +361,7 @@
     <configuration default="false" name="SortTest.testAllSorts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.simon.algorithm.sort.*" />
+          <option name="PATTERN" value="com.simon.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -690,35 +700,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllPermutation_testCalcAllCombination - 2017.06.22 at 16h 13m 22s.xml">
-      <configuration name="AllPermutation.testCalcAllCombination" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 16h 58m 49s.xml">
+    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 17h 22m 59s.xml">
       <configuration name="BinarySearchTreeTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 17h 08m 47s.xml">
+    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 17h 23m 07s.xml">
       <configuration name="BinarySearchTreeTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 17h 08m 58s.xml">
+    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 17h 23m 14s.xml">
       <configuration name="BinarySearchTreeTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeapTest_testIndexMaxHeap - 2017.06.22 at 15h 44m 38s.xml">
-      <configuration name="HeapTest.testIndexMaxHeap" configurationId="JUnit" />
+    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 18h 52m 08s.xml">
+      <configuration name="BinarySearchTreeTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeapTest_testIndexMaxHeap - 2017.06.22 at 15h 45m 55s.xml">
-      <configuration name="HeapTest.testIndexMaxHeap" configurationId="JUnit" />
+    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 18h 56m 34s.xml">
+      <configuration name="BinarySearchTreeTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeapTest_testIndexMaxHeap - 2017.06.22 at 15h 46m 50s.xml">
-      <configuration name="HeapTest.testIndexMaxHeap" configurationId="JUnit" />
+    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 18h 56m 52s.xml">
+      <configuration name="BinarySearchTreeTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeapTest_testIndexMaxHeap - 2017.06.22 at 15h 47m 03s.xml">
-      <configuration name="HeapTest.testIndexMaxHeap" configurationId="JUnit" />
+    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 18h 59m 28s.xml">
+      <configuration name="BinarySearchTreeTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeapTest_testIndexMaxHeap - 2017.06.22 at 15h 47m 18s.xml">
-      <configuration name="HeapTest.testIndexMaxHeap" configurationId="JUnit" />
+    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 19h 00m 31s.xml">
+      <configuration name="BinarySearchTreeTest.testInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeapTest_testIndexMaxHeap - 2017.06.22 at 15h 47m 30s.xml">
-      <configuration name="HeapTest.testIndexMaxHeap" configurationId="JUnit" />
+    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 19h 00m 53s.xml">
+      <configuration name="BinarySearchTreeTest.testInsert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest_testInsert - 2017.06.22 at 19h 01m 55s.xml">
+      <configuration name="BinarySearchTreeTest.testInsert" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -813,23 +823,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/developer/jdk1.8/jre/lib/rt.jar!/java/util/Queue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/stack/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="e#560#561#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/queue/LinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -899,6 +892,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -906,6 +902,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -973,6 +972,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-610">
           <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -980,6 +982,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="894">
           <caret line="67" column="35" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,6 +1028,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,17 +1039,6 @@
         <state relative-caret-position="193">
           <caret line="642" column="25" lean-forward="false" selection-start-line="642" selection-start-column="25" selection-end-line="642" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/simon/algorithm/sort/SortUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1648">
-          <caret line="109" column="35" lean-forward="false" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
-          <folding>
-            <element signature="e#264#265#0" expanded="false" />
-            <element signature="e#320#321#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,6 +1061,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,10 +1087,10 @@
           <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#311#312#0" expanded="false" />
-            <element signature="e#343#344#0" expanded="false" />
-            <element signature="e#413#414#0" expanded="false" />
-            <element signature="e#455#456#0" expanded="false" />
+            <element signature="e#303#304#0" expanded="false" />
+            <element signature="e#335#336#0" expanded="false" />
+            <element signature="e#405#406#0" expanded="false" />
+            <element signature="e#447#448#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1173,17 +1173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1192,25 +1181,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTreeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinaryTreeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="197">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
             <element signature="e#220#221#0" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/simon/algorithm/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/simon/datastructure/binarytree/BinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

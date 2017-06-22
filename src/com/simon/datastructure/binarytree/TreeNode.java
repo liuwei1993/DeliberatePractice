@@ -13,7 +13,7 @@ public class TreeNode {
         this.data = data;
     }
 
-    public String data;
+    public String data = "";
 
     public TreeNode leftChild;
 

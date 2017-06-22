@@ -1,9 +1,9 @@
 package com.simon.algorithm.sort.impl;
 
-import com.simon.algorithm.sort.SortUtils;
+import com.simon.algorithm.ArrayUtils;
 import org.junit.Test;
 
-import static com.simon.algorithm.sort.SortUtils.*;
+import static com.simon.algorithm.ArrayUtils.*;
 
 /**
  * Heap Sort impl
@@ -81,7 +81,7 @@ public class HeapSort extends BaseSort {
 
     @Test
     public void test() {
-        int[] randomArray = SortUtils.createRandomArray(8);
+        int[] randomArray = ArrayUtils.createRandomArray(8);
         printArray(randomArray);
         sort(randomArray);
         printArray(randomArray);

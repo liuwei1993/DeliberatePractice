@@ -1,4 +1,4 @@
-package com.simon.algorithm.sort;
+package com.simon.algorithm;
 
 import org.junit.Test;
 
@@ -7,10 +7,10 @@ import java.util.Arrays;
 import static org.junit.Assert.assertEquals;
 
 /**
- * SortUtils
+ * ArrayUtils
  * Created by simon on 17-6-19.
  */
-public class SortUtils {
+public class ArrayUtils {
 
     public static int[] createRandomArray(int length) {
         return createRandomArray(length, length);

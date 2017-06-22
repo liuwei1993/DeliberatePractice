@@ -2,7 +2,7 @@ package com.simon.algorithm.sort.impl;
 
 import org.junit.Test;
 
-import static com.simon.algorithm.sort.SortUtils.swap;
+import static com.simon.algorithm.ArrayUtils.swap;
 
 /**
  * BubbleSort

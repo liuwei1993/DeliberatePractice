@@ -1,6 +1,6 @@
 package com.simon.datastructure.heap;
 
-import com.simon.algorithm.sort.SortUtils;
+import com.simon.algorithm.ArrayUtils;
 import org.junit.Test;
 
 /**
@@ -12,8 +12,8 @@ public class HeapTest {
     @Test
     public void testInsertExtractMax() {
         MaxHeap maxHeap = new MaxHeap();
-        int[] randomArray = SortUtils.createRandomArray(10);
-        SortUtils.printArray(randomArray);
+        int[] randomArray = ArrayUtils.createRandomArray(10);
+        ArrayUtils.printArray(randomArray);
         for (int i : randomArray) {
             maxHeap.insertData(i);
         }
@@ -25,8 +25,8 @@ public class HeapTest {
 
     @Test
     public void testHeapify() {
-        int[] randomArray = SortUtils.createRandomArray(10);
-        SortUtils.printArray(randomArray);
+        int[] randomArray = ArrayUtils.createRandomArray(10);
+        ArrayUtils.printArray(randomArray);
         MaxHeap maxHeap = new MaxHeap(randomArray);
         maxHeap.print();
     }
@@ -35,7 +35,7 @@ public class HeapTest {
     public void testIndexMaxHeap() {
         IndexMaxHeap maxHeap = new IndexMaxHeap();
         int[] randomArray = {5,2,7,9,4,3,4,1};
-        SortUtils.printArray(randomArray);
+        ArrayUtils.printArray(randomArray);
         for (int i : randomArray) {
             maxHeap.insertData(i);
         }

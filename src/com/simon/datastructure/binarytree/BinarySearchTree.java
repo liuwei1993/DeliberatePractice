@@ -62,5 +62,4 @@ public class BinarySearchTree {
         return rootNode;
     }
 
-
 }

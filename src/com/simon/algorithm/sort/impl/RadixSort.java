@@ -4,8 +4,8 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static com.simon.algorithm.sort.SortUtils.computeHexCount;
-import static com.simon.algorithm.sort.SortUtils.intAtHexPos;
+import static com.simon.algorithm.ArrayUtils.computeHexCount;
+import static com.simon.algorithm.ArrayUtils.intAtHexPos;
 
 /**
  * RadixSort
