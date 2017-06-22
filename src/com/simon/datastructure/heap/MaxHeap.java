@@ -1,4 +1,4 @@
-package com.simon.algorithm.heap;
+package com.simon.datastructure.heap;
 
 import static java.lang.Math.pow;
 import static jdk.nashorn.internal.objects.NativeMath.min;
@@ -7,7 +7,7 @@ import static jdk.nashorn.internal.objects.NativeMath.min;
  * Max Heap impl
  * Created by simon on 17-6-21.
  */
-public class MaxHeap {
+public class MaxHeap implements Heap{
 
     private int[] data;
 

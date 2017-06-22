@@ -1,4 +1,4 @@
-package com.simon.algorithm.heap;
+package com.simon.datastructure.heap;
 
 import com.simon.algorithm.sort.SortUtils;
 import org.junit.Test;
@@ -29,6 +29,21 @@ public class HeapTest {
         SortUtils.printArray(randomArray);
         MaxHeap maxHeap = new MaxHeap(randomArray);
         maxHeap.print();
+    }
+
+    @Test
+    public void testIndexMaxHeap() {
+        IndexMaxHeap maxHeap = new IndexMaxHeap();
+        int[] randomArray = {5,2,7,9,4,3,4,1};
+        SortUtils.printArray(randomArray);
+        for (int i : randomArray) {
+            maxHeap.insertData(i);
+        }
+        maxHeap.change(5,8);
+        maxHeap.print();
+        while (!maxHeap.isEmpty()) {
+            System.out.print(maxHeap.extractMax());
+        }
     }
 
 }

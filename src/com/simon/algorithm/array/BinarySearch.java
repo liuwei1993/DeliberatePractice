@@ -17,7 +17,8 @@ public class BinarySearch {
 
 
     public static int binarySearch(char[] chars, int start, int end, char target) {
-        int index = (start + end) / 2;
+//        int index = (start + end) / 2;
+        int index = start + (end - start) / 2;
         char charAtIndex = chars[index];
         if(charAtIndex == target){
             return index;
@@ -30,6 +31,10 @@ public class BinarySearch {
         }
     }
 
+    //TODO floor
+
+
+    //TODO ceil
 
 
 }
