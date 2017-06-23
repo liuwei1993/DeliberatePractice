@@ -19,4 +19,6 @@ public class TreeNode {
 
     public TreeNode rightChild;
 
+    public int count = 1;//表示以该节点为根的二叉树的节点总数，默认为1
+
 }
