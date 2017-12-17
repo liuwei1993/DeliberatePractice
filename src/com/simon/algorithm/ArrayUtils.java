@@ -62,6 +62,16 @@ public class ArrayUtils {
         }
     }
 
+    public static void printArray(int[] array, int start, int end) {
+        if (array != null) {
+            System.out.print("[");
+            for (int i = start; i <= end; i++) {
+                System.out.print(array[i] + " ");
+            }
+            System.out.println("]");
+        }
+    }
+
     public static void swap(int[] data, int i, int j) {
         int temp = data[i];
         data[i] = data[j];
