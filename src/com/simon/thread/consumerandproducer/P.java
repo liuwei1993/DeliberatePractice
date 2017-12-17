@@ -1,4 +1,4 @@
-package com.simon.consumerandproducer;
+package com.simon.thread.consumerandproducer;
 
 import java.util.Random;
 

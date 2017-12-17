@@ -86,7 +86,7 @@ public class QuickSort extends BaseSort {
         int i = start + 1;
         int j = end;
         while (true) {
-            while (i<=end && data[i] < target) i++;
+            while (i<= end && data[i] < target) i++;
             while (j>= start + 1 && data[j] > target) j--;
             if(i >= j) {
                 break;
@@ -152,5 +152,21 @@ public class QuickSort extends BaseSort {
         quickSort(data, 0, data.length - 1);
     }
 
+
+    public static int partition22(int[] data, int start, int end) {
+        int i = start +1;
+        int j = end;
+        int target = data[start];
+        while (true) {
+            while (i <= end && data[i] < target) i++;
+            while (j >= start + 1 && data[j] > target) j--;
+            if(i >= j) break;
+            swap(data, i, j);
+            i++;
+            j--;
+        }
+        swap(data, start, j);
+        return j;
+    }
 
 }
